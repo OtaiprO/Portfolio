@@ -12,7 +12,7 @@ img {
   color: var(--secondary-color-bright);
   border-radius: 0.7rem;
   border: 1.5px solid var(--secondary-color-bright);
-  background: #2a260f;
+  background: #0c1f1d;
   position: absolute;
   top: 55%;
   z-index: 3;

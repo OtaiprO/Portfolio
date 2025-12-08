@@ -21,7 +21,7 @@ export const Hero = () => {
           </div>
           <img
             className="my-img"
-            src={`${process.env.PUBLIC_URL}/assets/images/my-photo-v0.2.png`}
+            src={`${process.env.PUBLIC_URL}/assets/images/my-photo-v0.3.png`}
             alt=""
           />
         </div>

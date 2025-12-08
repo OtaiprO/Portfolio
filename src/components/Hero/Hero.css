@@ -10,7 +10,7 @@
   width: 28rem;
   height: 28rem;
   border-radius: 28rem;
-  background: #ceac33;
+  background: var(--secondary-color-dark);
   position: absolute;
   z-index: -1;
   filter: blur(225px);

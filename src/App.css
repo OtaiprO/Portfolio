@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #1f9a84;
-  --secondary-color-bright: #f4d35f;
-  --secondary-color: #dab637;
-  --secondary-color-dark: #ccab32;
-  --scrollbar-color: #b89a2b;
+  --primary-color: #082A28;
+  --secondary-color-bright: #D3A74A;
+  --secondary-color: #BA903E;
+  --secondary-color-dark: #92702D;
+  --scrollbar-color: #7C5E26;
 }
 
 .container {

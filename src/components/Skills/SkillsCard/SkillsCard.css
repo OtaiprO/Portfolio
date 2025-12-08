@@ -30,7 +30,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #64632a;
+  background: var(--secondary-color-dark);
   border-radius: 0.7rem;
   border: 1.5px solid var(--secondary-color-bright);
   position: absolute;

@@ -15,13 +15,13 @@
 }
 
 .skills-container::after {
-  background: #d9db60;
+  background: var(--secondary-color-dark);
   top: -3rem;
   left: -5rem;
 }
 
 .skills-container::before {
-  background: #b9a951;
+   background: var(--secondary-color-dark);
   bottom: 0;
   right: 0;
 }
@@ -62,7 +62,7 @@
 
 @media (max-width: 768px) {
   .skills-content {
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 3rem;
   }
   .skills,

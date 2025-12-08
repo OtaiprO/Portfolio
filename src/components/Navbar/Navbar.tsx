@@ -49,7 +49,7 @@ export const Navbar = () => {
 
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <img className="logo" src="assets/images/logo-white.svg" alt="" />
+          <img className="logo" src={`${process.env.PUBLIC_URL}/assets/images/logo-white.svg`} alt="" />
           <ul>
             <li className="menu-item">
               <a href="#home-section">Home</a>

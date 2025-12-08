@@ -1,5 +1,5 @@
 .project-card {
-  background: #2a260f;
+   background: #0c1f1d;
   border-radius: 0.65rem;
   border: 1.5px solid var(--secondary-color-bright);
   padding: 1.5rem;
@@ -46,14 +46,14 @@
   display: inline-block;
   font-size: 0.8rem;
   font-weight: 400;
-  background: rgba(185, 174, 81, 0.5);
+  background: rgba(211, 167, 74, 0.35);
   border-radius: 0.3rem;
   padding: 0.8rem 1rem;
   margin-top: 1rem;
 }
 
 .project-link:hover {
-  background: rgb(177, 164, 54);
+   background: var(--secondary-color-bright);
 }
 
 @media (max-width: 768px) {
