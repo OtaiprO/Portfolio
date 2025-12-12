@@ -69,3 +69,20 @@
     font-size: 0.75rem;
   }
 }
+
+
+@media (max-width: 320px) {
+.project-links-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-link {
+  text-align: center;
+  font-size: 0.7rem;
+  padding: 0.8rem 1rem;
+  max-width: 100px;
+}
+
+
+}

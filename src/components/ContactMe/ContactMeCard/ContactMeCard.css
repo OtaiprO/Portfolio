@@ -31,3 +31,10 @@
   font-size: 0.9rem;
   font-weight: 400;
 }
+
+@media (max-width: 320px) {
+  .contact-details-card p {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+}

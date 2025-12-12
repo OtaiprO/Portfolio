@@ -32,7 +32,7 @@ export const ContactMe = () => {
         <div>
           <ContactMeCard
             iconUrl={`${process.env.PUBLIC_URL}/assets/images/phone-icon.png`}
-            text="+46 790 525 727"
+            text="+962 785 116 560"
           />
         </div>
       </div>
