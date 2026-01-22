@@ -9,39 +9,6 @@ export const Navbar = () => {
     setOpenMenu(!openMenu);
   };
 
-  useEffect(() => {
-    const handleSmoothScroll: EventListener = (e) => {
-      e.preventDefault();
-
-      const targetId = (e.currentTarget as HTMLAnchorElement).getAttribute(
-        "href"
-      );
-
-      if (targetId) {
-        const targetElement = document.getElementById(targetId.substring(1));
-
-        if (targetElement) {
-          targetElement.scrollIntoView({
-            behavior: "smooth",
-            block: "start",
-          });
-        }
-      }
-
-      setOpenMenu(false);
-    };
-
-    const links = document.querySelectorAll(".nav-wrapper a");
-    links.forEach((link) => {
-      link.addEventListener("click", handleSmoothScroll);
-    });
-
-    return () => {
-      links.forEach((link) => {
-        link.removeEventListener("click", handleSmoothScroll);
-      });
-    };
-  }, []);
 
   return (
     <>
