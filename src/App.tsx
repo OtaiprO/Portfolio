@@ -9,7 +9,8 @@ import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
-    <>
+    <> 
+     <body> 
       <Navbar />
       <main className="container">
         <Hero />
@@ -18,6 +19,7 @@ function App() {
         <ContactMe />
       </main>
       <Footer />
+      </body>
     </>
   );
 }

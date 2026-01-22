@@ -13,11 +13,19 @@ export const Hero = () => {
 
       <div className="hero-img">
         <div>
+          <div className="upper-icons">
           <div className="tech-icon">
             <img
               src={`${process.env.PUBLIC_URL}/assets/images/react-icon.png`}
               alt=""
             />
+          </div>
+          <div className="tech-icon">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/vue-icon.webp`}
+              alt=""
+            />
+          </div>
           </div>
           <img
             className="my-img"

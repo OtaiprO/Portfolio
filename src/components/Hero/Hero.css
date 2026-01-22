@@ -53,6 +53,12 @@
   margin-top: 5rem;
 }
 
+.upper-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .hero-img > div {
   display: flex;
   align-items: flex-end;
@@ -159,6 +165,10 @@
   .hero-content p {
     font-size: 0.8rem;
     line-height: 1.3rem;
+  }
+
+  .upper-icons {
+  gap: 1rem;
   }
 
   .hero-img {
